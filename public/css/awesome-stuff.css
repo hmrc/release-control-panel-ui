@@ -1,0 +1,187 @@
+.alert-container
+{
+    margin-left: -225px;
+    position: fixed;
+    top: 0;
+    transition: 0.5s ease-in-out transform;
+    transform: translate(0, -100%);
+    left: 50%;
+    width: 450px;
+    z-index: 100;
+}
+
+.alert-container.is-shown
+{
+    transform: translate(0, 10%);
+}
+
+h2
+{
+    font-size: normal;
+    text-transform: uppercase;
+}
+
+.btn
+{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.btn-default
+{
+    background: #FAAF40;
+    border: none;
+    text-shadow: none;
+}
+
+.btn-primary
+{
+    background: #26A9E0;
+    border: none;
+    text-shadow: none;
+}
+
+.infinite-spin
+{
+    -webkit-animation: 1s linear 0s infinite spin;
+    -o-animation: 1s linear 0s infinite spin;
+    animation: 1s linear 0s infinite spin;
+}
+
+.input-group .form-control
+{
+    border: none;
+}
+
+.label
+{
+    border-radius: 0;
+    font-size: 100%;
+}
+
+.navbar-default
+{
+    background: black;
+}
+
+.navbar-brand
+{
+    text-transform: uppercase;
+}
+
+.ticket-number
+{
+    width: 3%;
+}
+
+.ticket-summary
+{
+    width: 35%;
+}
+
+.ticket-epic
+{
+    width: 23%;
+}
+
+.ticket-tags
+{
+    width: 10%;
+}
+
+.ticket-date
+{
+    width: 14%;
+}
+
+.ticket-status
+{
+    width: 8%;
+}
+
+.ticket-author
+{
+    width: 8%;
+}
+
+.c3-tooltip td
+{
+    color: #000;
+}
+
+
+/* don't do anything fancy when hovering */
+.c3-defocused.c3-target
+{
+    opacity: 0 !important;
+}
+
+text
+{
+    fill: #72cc2d;
+}
+
+.conditional-panel
+{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.conditional-panel.show
+{
+    height: 164px;
+}
+
+.vertical-align--middle
+{
+    vertical-align: middle;
+}
+
+.ticket-list-action
+{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.margin-top-medium
+{
+    margin-top: 2em;
+}
+
+@-webkit-keyframes spin
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
